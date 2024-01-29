@@ -126,13 +126,15 @@ body{
 
 .header .navbar ul li a{
     font-size: 2rem;
-    color: #000;
+    color: #160ac2b4;
 }
 
-.header .navbar ul li a:hover{
-    color: #ffffff;
-    text-decoration:overline;
+.header .navbar ul li a:hover {
+    color: #000; 
+    text-decoration: overline; 
+    text-shadow: 0 0 10px rgba(76, 7, 224, 0.5); 
 }
+
 
 .header .logo i{
     padding: 0.5rem;
@@ -475,68 +477,7 @@ body{
     font-size: 2rem;
 }
 
-.testimonials {
-    position: relative;
-    padding: 90px 0 60px 0;
-    background: #f2f2f2;
-}
-
-.testimonials .testimonial-item {
-    position: relative;
-    margin: 0 15px 30px 15px;
-    background: #ffffff;
-}
-
-.testimonials .testimonial-img {
-    position: relative;
-    background: #000000;
-    overflow: hidden;
-}
-
-.testimonials .testimonial-text {
-    position: relative;
-    width: 100%;
-    padding: 30px 15px;
-    text-align: center;
-    background: #ffffff;
-}
-
-.testimonials .testimonial-text h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.testimonials .testimonial-text h4 {
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-.testimonials .testimonial-text p {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.testimonials .owl-nav,
-.testimonials .owl-dots {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.testimonials .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #dddddd;
-}
-
-.testimonials .owl-dot.active {
-    background-color: #4F84C4;
-}
+ 
 
 @media (max-width: 575px) {
     .testimonials .testimonial-text {
@@ -967,15 +908,17 @@ body{
         .footer .copyright {
             text-align: center;
             padding-top: 30px;
+            
         }
         
         @media (min-width: 768px) {
             .footer .credit {
-                text-align: right;
+                text-align: center;
             }
             
             .footer .copyright {
-                text-align: left;
+                text-align: center;
+            
             }
         }
 
