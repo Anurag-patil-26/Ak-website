@@ -104,6 +104,7 @@ body{
     left: 0;
     z-index: 100;
     position: fixed;
+    background: #0000;
 }
 
 .header .logo img{
@@ -782,11 +783,11 @@ body{
         .footer {
             position: relative;
             padding: 0 0 30px 0;
-            background: #333;
+            background: #ffffff;
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background: #a9a9a9;
             padding: 60px 0 30px 0;
         }
         
@@ -812,14 +813,14 @@ body{
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #00bfff;
+            background: #147fa3;
             color: #ffffff;
         }
         
         .footer .footer-top h4 {
             font-size: 16px;
             font-weight: 700;
-            color: #ffffff;
+            color: #000000;
             text-transform: uppercase;
             position: relative;
             padding-bottom: 12px;
@@ -1219,22 +1220,4 @@ body{
         
         }
 
-        .faq{
-            padding: 0;
-            min-height: 60vh;
-        }
-    
-        .faq .row{
-            padding: 0 1.5rem;
-            flex-flow: column;
-        }
-    
-        .faq .row .accordion-container{
-            width: 100%;
-        }
 }
-
-
-
-
-
